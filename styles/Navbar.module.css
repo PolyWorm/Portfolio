@@ -1,8 +1,28 @@
 .navbar {
-    position: fixed;
+    position: static;
     width: 100vw;
-    height: 100px;
+    height: 130px;
     background-color: #232323;
     padding-left: 10vw;
     padding-right: 10vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 70px;
+}
+.buttons {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+.link {
+    padding-left: 60px;
+    color: #e2e2e2;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
 }

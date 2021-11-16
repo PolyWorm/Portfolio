@@ -7,6 +7,9 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
+      <div className={styles.landing}>
+        
+      </div>
     </div>
   )
 }
