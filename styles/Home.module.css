@@ -7,6 +7,49 @@
   justify-content: space-between;
   background-color: #232323;
 }
-.intro {
-  width: 50;
+.info {
+  width: 50%;
+  height: 80vh;
+  padding-top: 100px;
+}
+.graphic {
+  width: 50%;
+  height: 80vh;
+}
+.heading {
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: #e2e2e2;
+  margin: 0;
+}
+.bodytext {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: #e2e2e2;
+  line-height: 30px;
+  margin: 5px;
+}
+.projectbutton {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 10vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #e2e2e2;
+  border: 1.5px solid #e2e2e2;
+  border-radius: 15px;
+  background-color: #232323;
+  transition: 0.2s;
+
+}
+.projectbutton:hover {
+  background-color: #e2e2e2;
+  color: #232323;
 }
