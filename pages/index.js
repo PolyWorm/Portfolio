@@ -18,6 +18,14 @@ export default function Home() {
             <button className={styles.projectbutton}>
             VIEW WORK
           </button>
+            <div className={styles.mobileanimation}>
+              <div className={styles.mobilebubble1}/>
+              <div className={styles.mobilebubble2}/>
+              <div className={styles.mobilebubble3}/>
+              <div className={styles.mobilebubble4}/>
+              <div className={styles.mobilebubble5}/>
+              <div className={styles.mobilebubble6}/>
+            </div>
           </div>
           <div className={styles.graphic}>
             <div className={styles.graphicwrapper}>
