@@ -66,6 +66,7 @@
   top: 130px;
   right: 50px;
   position: absolute;
+  background-image: url("/justinface.svg");
 }
 .bubble1 {
   opacity: 0%;

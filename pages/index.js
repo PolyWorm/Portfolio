@@ -27,7 +27,7 @@ export default function Home() {
               <div className={styles.bubble4}/>
               <div className={styles.bubble5}/>
               <div className={styles.bubble6}/>
-              <img className={styles.fadeInAnimation3, styles.face} src="/justinface.svg"/>
+              <div className={styles.fadeInAnimation3, styles.face}/>
             </div>
           </div>
         </div>
