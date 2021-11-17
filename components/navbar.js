@@ -9,9 +9,6 @@ export default function Navbar() {
             PROJECTS
           </li>
           <li className={styles.link}>
-            CONTACT
-          </li>
-          <li className={styles.link}>
             ABOUT
           </li>
         </ul>

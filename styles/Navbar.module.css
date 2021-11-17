@@ -1,7 +1,7 @@
 .navbar {
     position: static;
     width: 100vw;
-    height: 130px;
+    height: 20vh;
     background-color: #232323;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -26,3 +26,9 @@
     font-weight: bold;
     letter-spacing: 3px;
 }
+@media (max-width: 812px) {
+    .buttons {
+        flex-direction: column;
+        text-align: end;
+    }
+  }
