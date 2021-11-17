@@ -9,9 +9,9 @@ export default function Home() {
       <Navbar/>
         <div className={styles.landing}>
           <div className={styles.info}>
-            <h1 className={styles.heading}>I'm Justin Li.</h1>
+            <h1 className={styles.heading}>I&apos;m Justin Li.</h1>
             <p className={styles.bodytext}>
-                I'm a developer <br/>
+                I&apos;m a developer <br/>
                 focused on design <br/>
                 and functionality.
             </p>
