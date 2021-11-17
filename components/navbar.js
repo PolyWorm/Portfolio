@@ -3,7 +3,7 @@ import styles from '../styles/Navbar.module.css';
 export default function Navbar() {
     return (
       <div className={styles.navbar}>
-        <img className={styles.logo} src="/finallogo.svg"/>
+        <div className={styles.logo}/>
         <ul className={styles.buttons}>
           <li className={styles.link}>
             PROJECTS
