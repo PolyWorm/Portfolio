@@ -33,6 +33,7 @@ export default function Home() {
         </div>
         <div className={styles.projects}>
           <h1 className={styles.heading}>Projects</h1>
+          
         </div>
       </div>
   )
