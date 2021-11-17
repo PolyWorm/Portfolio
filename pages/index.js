@@ -6,6 +6,9 @@ import Navbar from '../components/Navbar.js'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Justin Li here.</title>
+      </Head>
       <Navbar/>
         <div className={styles.landing}>
           <div className={styles.info}>
@@ -15,7 +18,7 @@ export default function Home() {
                 focused on design <br/>
                 and functionality.
             </p>
-            <button className={styles.projectbutton}>
+          <button className={styles.projectbutton}>
             VIEW WORK
           </button>
             <div className={styles.mobileanimation}>
