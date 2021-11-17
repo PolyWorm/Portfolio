@@ -11,7 +11,7 @@ export default function Navbar() {
           <li className={styles.link}>
             ABOUT
           </li>
-        </ul>
+        </ul> 
       </div>
     )
   }

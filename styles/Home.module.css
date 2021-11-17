@@ -185,11 +185,32 @@
     height: 100%;
     padding-top: 50px;
   }
+  .heading {
+    text-align: center;
+    font-size: 40px;
+  }
+  .bodytext {
+    text-align: center;
+    font-size: 20px;
+  }
   .projectbutton {
-    bottom: 100px;
+    width: 80vw;
+    bottom: 10vh;
   }
   .heading {
     margin-bottom: 30px;
+  }
+}
+@media (max-height: 500px) {
+  .projectbutton {
+    right: 10vw;
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
 }
 
