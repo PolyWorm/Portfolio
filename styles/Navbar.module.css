@@ -34,9 +34,14 @@
     .buttons {
         flex-direction: column;
         text-align: end;
+        display: none;
     }
     .link {
         padding-top: 3px;
         padding-bottom: 3px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
     }
   }

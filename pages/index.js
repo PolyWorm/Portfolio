@@ -2,8 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar.js'
+import Project from '../components/Project.js'
+import { useRef } from 'react'
 
 export default function Home() {
+  const projectRef = useRef(null)
+  const executeScroll = () => projectRef.current.scrollIntoView() 
   return (
     <div>
       <Head>
@@ -22,10 +26,11 @@ export default function Home() {
                 focused on design <br/>
                 and functionality.
             </p>
-          <button className={styles.projectbutton}>
-            VIEW WORK
-          </button>
-            <div className={styles.mobileanimation}>
+            <button className={styles.projectbutton} onClick={executeScroll}>
+              VIEW WORK
+            </button>
+          </div>
+          <div className={styles.mobileanimation}>
               <div className={styles.mobilebubble1}/>
               <div className={styles.mobilebubble2}/>
               <div className={styles.mobilebubble3}/>
@@ -33,7 +38,6 @@ export default function Home() {
               <div className={styles.mobilebubble5}/>
               <div className={styles.mobilebubble6}/>
             </div>
-          </div>
           <div className={styles.graphic}>
             <div className={styles.graphicwrapper}>
               <div className={styles.bubble1}/>
@@ -47,8 +51,9 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.projects}>
-          <h1 className={styles.heading}>Projects</h1>
-          <p>hello</p>
+          <h1 className={styles.heading} ref={projectRef}>Projects</h1>
+          <Project></Project>
+          <Project></Project>
         </div>
       </div>
   )

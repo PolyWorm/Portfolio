@@ -1,0 +1,16 @@
+.back {
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+}
+.content {
+    width: 80vw;
+    height: 80vh;
+    background: #262626;
+    margin: 0 auto;
+    margin-top: 0px;
+
+    border-radius: 30px;
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+    
+}
