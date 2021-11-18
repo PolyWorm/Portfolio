@@ -1,3 +1,6 @@
+.background_color {
+  background-color: #232323;
+}
 .landing {
   width: 100vw;
   height: 600px;
@@ -281,6 +284,8 @@
     z-index: 100;
     margin-top: 20px;
     bottom: 50px;
+    opacity: 70%;
+    animation: bubbleup 2s ease-in-out 1s infinite alternate;
   }
 }
 @media (max-height: 500px) {

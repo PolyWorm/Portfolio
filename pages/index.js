@@ -9,7 +9,7 @@ export default function Home() {
   const projectRef = useRef(null)
   const executeScroll = () => projectRef.current.scrollIntoView() 
   return (
-    <div>
+    <div className={styles.background_color}>
       <Head>
         <title>Justin Li here.</title>
         <link rel="shortcut icon" href="/favicon.ico" />
